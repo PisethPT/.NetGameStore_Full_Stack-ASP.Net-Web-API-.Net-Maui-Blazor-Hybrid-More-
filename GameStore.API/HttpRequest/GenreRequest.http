@@ -1,0 +1,7 @@
+GET http://localhost:5017/genres
+
+###
+
+GET https://pvmh9vmp-5017.asse.devtunnels.ms/genres
+
+###

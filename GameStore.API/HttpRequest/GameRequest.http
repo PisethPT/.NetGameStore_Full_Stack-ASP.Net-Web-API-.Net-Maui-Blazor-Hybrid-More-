@@ -1,0 +1,39 @@
+GET http://localhost:5017/games
+
+###
+
+GET https://pvmh9vmp-5017.asse.devtunnels.ms/games
+
+###
+
+POST https://pvmh9vmp-5017.asse.devtunnels.ms/games/add
+Content-Type: application/json
+
+{
+    "name": "Bewitched: Part I",
+    "genreId": 5,
+    "price": 1.29,
+    "releaseDate": "2024-07-26"
+}
+
+###
+
+GET http://localhost:5017/games/1
+
+###
+
+PUT http://localhost:5017/games/update/7
+Content-Type: application/json
+
+{
+    "name": "Unlock The King 2",
+    "genreId": 4,
+    "price": 1.25,
+    "releaseDate": "2024-07-25"
+}
+
+###
+
+DELETE http://localhost:5017/games/3
+
+###
